@@ -1,0 +1,291 @@
+
+.header  {
+    z-index: 999;
+    height: 110px;
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    
+}
+
+.header__navbar {
+    display: flex;
+    justify-content: space-between;
+    /* padding-right: 15px;
+    padding-left: 15px;
+ */
+    margin-top: 34px;
+   
+    
+}
+
+.header__navbar_logo {
+    left:0;
+}
+
+.header__navbar-menu {
+    display: flex; 
+    justify-content: space-between;
+    text-decoration: none;
+    margin-right: 0%;
+
+}
+
+.header__navbar-items {
+    text-decoration: none;
+    list-style: none;
+    margin: 8px 25px;
+    position: relative;
+}
+
+.header__navbar-items a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: var(--text-color);
+    font-weight: 500;
+
+}
+
+.header__navbar_link:hover {
+
+    color: var(--button-color);
+}
+
+.navbar-items-icon {
+    font-size:1.4rem;
+    opacity: 0.9;
+    margin-left: 2px;
+   
+}
+
+.header__navbar_login {
+    display: flex;
+
+}
+
+.navbar_login-item {
+    width: 134px;
+    height:40px;  
+    border-radius:10px;
+    margin: 0 10px;
+    outline: none;
+    border: 1px solid var(--button-color);
+    font-size: 1.5rem;
+    background-color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.navbar_login-signin {
+    background-color: var(--button-color);
+    color: #fff;
+}
+
+
+/* hover Sản phẩm */
+.header__navbar-items:hover .header_submenu  {
+    display: block;
+  
+}
+
+.header_submenu {
+    position: absolute;
+    display: flex;
+    min-width: 200px;
+    background-color: #fff;  
+    top: 57px;
+    /* right: -60%; */
+    transform: translateX(-25%);
+    border-radius: 3px;
+    text-align: center;
+    justify-content: center;
+    box-shadow:0 2px 15px rgba(0, 0, 0, 0.2);
+    border-top: 2px solid rgba(0, 0, 0, 0.2);
+    display: none;
+}
+
+.header_submenu::before {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: -45px;
+    width: 200px;
+    height: 50px;
+
+}
+
+.header_submenu-list {
+    padding-left: 0;
+    list-style: none;
+
+}
+
+.header_subname-items a{
+    font-size: 1.4rem;
+    text-decoration: none;
+    display: block;
+    margin: 15px 0;
+}
+
+.header_subname-items:hover a  {
+    color: var(--button-color);
+
+}
+
+/* container */
+.container__slider {
+    width: 100%;
+    height: 580px;
+    background-color: var(--slider-color);
+    display: flex;
+}
+
+.container_list {
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.container__content {
+   width: 60%;
+   margin-top:20%;
+
+}
+
+.container__heading {
+    margin-top: 0;
+    margin-right: 0;
+
+    font-size:48px;
+    color: #fff;
+    align-items: center;
+    line-height: 56px;
+            
+
+}
+
+.container__number{
+    font-size: 1.8rem;
+    color: #fff;
+
+}
+
+.container__app {
+    display: flex;
+    margin-top: 50px;
+}
+
+.container__img-ggplay {
+    margin-left: 20px;
+}
+
+
+/* container_img_link */ 
+
+.container__link_img {
+    margin-left: 50px;
+    flex: 1;
+}
+
+.container_link_active {
+    margin-top: 200px;
+}
+
+.link_img_tree {
+    height: 380px;
+    width: 400px;
+    text-decoration: none; 
+}
+
+/* container slider 1 */
+.container__slider2 {
+    background-color: #f0f0f0;
+    width: 100%;
+    min-height: 500px;
+}
+
+.container__slider2-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container__slider2-heading {
+    padding-top: 80px;
+    padding-bottom: 30px;
+    
+}
+
+.container__slider-heading-text {
+    font-size:48px;
+    color: var(--text-color);
+
+}
+
+.container__slider2-introduce {
+    display: flex;
+    justify-content: space-between;
+   
+
+}
+
+.container_introduce-list {
+    
+    margin: 0 10px;
+    min-height:205px;
+    background-color: #fff;
+    border-radius:15px;
+    width: 33.3333%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: -5px 10px 30px #e0e0e0;
+
+}
+
+.introduce-items {
+    margin: 25px 25px 5px 25px;
+
+}
+
+.introduce-img {
+    height: 65px;
+    width: 65px;
+
+}
+
+.introduce-img-three {
+    height: 65px;
+    width: 50%;
+    
+}
+
+.introduce-stad {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    
+
+}
+.introduce-stad p {
+    font-size: 15px;
+    color: var(--text-color);
+    line-height:22px;
+
+}
+
+.introduce-font-weigh-bold{
+    font-weight: 600;
+
+}
+
+/* Slider 3 */
+.container__slider3 {
+    width: 100;
+    background-color: #fff;
+    height:200px;
+}
+
+
+
+
+

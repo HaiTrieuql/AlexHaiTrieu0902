@@ -1,0 +1,35 @@
+
+
+*{
+    box-sizing: inherit;
+
+}
+
+html {
+    /* tip hack */
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'helvetica' , 'sans-serif';
+    box-sizing: border-box;
+    
+}
+
+.grip {
+    width: 960px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.grip__row {
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-right: -15px;
+    margin-left: -15px; */
+}
+
+:root {
+    --text-color: #212529 ;
+    --button-color: #00c03c ;
+    --slider-color: #058f48;
+    
+}
